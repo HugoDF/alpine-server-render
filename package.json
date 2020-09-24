@@ -1,7 +1,7 @@
 {
   "name": "alpine-server-render",
   "description": "A server/static renderer for Alpine.js templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "source": "./src/alpine-server-render.ts",
   "main": "./dist/alpine-server-render.js",
   "module": "./dist/alpine-server-render.module.js",
