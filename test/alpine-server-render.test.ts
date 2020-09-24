@@ -20,6 +20,14 @@ const xFor = `<div x-data>
 
 const options = {strip: true};
 
+test('works with x-text - strip', () => {
+  const html = render(xText, options);
+  assert.snapshot(
+    html,
+    `<div>Hello</div>`
+  );
+});
+
 test('works with x-for', () => {
   const html = render(xFor, options);
   assert.snapshot(html.replace(/\s/g, ''), `<div><div>1</div><div>2</div><div>3</div></div>`);
