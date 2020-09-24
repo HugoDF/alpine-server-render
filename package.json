@@ -1,11 +1,28 @@
 {
-  "private": true,
+  "name": "alpine-server-render",
+  "version": "0.0.0",
+  "source": "./src/alpine-server-render.ts",
+  "main": "./dist/alpine-server-render.js",
+  "module": "./dist/alpine-server-render.module.js",
+  "types": "./dist/alpine-server-render.d.ts",
+  "files": ["dist/*.d.ts", "dist/*.js"],
   "scripts": {
-    "lint": "xo .",
-    "format": "xo . --fix"
+    "test": "uvu -r ts-node/register ./test",
+    "build": "microbundle -f cjs,modern --target node --no-sourcemap",
+    "lint": "xo ./{src,test}",
+    "fmt": "xo ./{src,test} --fix",
+    "release": "np"
+  },
+  "dependencies": {
+    "alpine-test-utils": "^0.2.0",
+    "alpinejs": "^2.7.0"
   },
   "devDependencies": {
-    "xo": "latest"
+    "microbundle": "^0.12.3",
+    "np": "^6.5.0",
+    "ts-node": "^9.0.0",
+    "uvu": "^0.3.3",
+    "xo": "^0.33.1"
   },
   "xo": {
     "prettier": true,
