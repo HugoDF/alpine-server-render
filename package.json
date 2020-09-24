@@ -1,12 +1,15 @@
 {
   "name": "alpine-server-render",
   "description": "A server/static renderer for Alpine.js templates",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "source": "./src/alpine-server-render.ts",
   "main": "./dist/alpine-server-render.js",
   "module": "./dist/alpine-server-render.module.js",
   "types": "./dist/alpine-server-render.d.ts",
-  "files": ["dist/*.d.ts", "dist/*.js"],
+  "files": [
+    "dist/*.d.ts",
+    "dist/*.js"
+  ],
   "scripts": {
     "test": "uvu -r ts-node/register ./test",
     "build": "microbundle -f cjs,modern --target node --no-sourcemap",
