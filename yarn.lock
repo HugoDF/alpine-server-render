@@ -1397,10 +1397,10 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-alpine-test-utils@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/alpine-test-utils/-/alpine-test-utils-0.2.0.tgz#ac28a3cb4db6a29e72e87eb4bee0642729cc3c20"
-  integrity sha512-yvy3C0MF66J6m7lFZP51ZI1E6UK4VvPYnjILgg2X5OY7lJ0dDDkkHuimdK8uniMj/XfiipIbWouuHKSGrZxsug==
+alpine-test-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/alpine-test-utils/-/alpine-test-utils-1.0.0.tgz#9dff3dee56dbae4989b2f5dffa0212ead9e4705a"
+  integrity sha512-FAmecoGjCdUGdWQA2T99UWFp2M02rvp/o1SBpTrUK89zKR+0rdLvLgxPK2fUIFl9HY2D7A8AjXAD2CveBPJdbQ==
   dependencies:
     jsdom "^16.2.2"
     wait-for-expect "^3.0.2"

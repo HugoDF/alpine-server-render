@@ -18,7 +18,7 @@
     "release": "np"
   },
   "dependencies": {
-    "alpine-test-utils": "^0.2.0",
+    "alpine-test-utils": "^1.0.0",
     "alpinejs": "^2.7.0"
   },
   "devDependencies": {
